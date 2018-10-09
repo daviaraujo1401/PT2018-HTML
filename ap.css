@@ -1,0 +1,47 @@
+th {
+    background-color: #868686;
+}
+.tabela{
+    width: 80%;
+}
+td, th{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+div.pendente{
+    width: 50%;
+    padding: 1px 20px 1px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius:8px;  
+}
+div.entregue{
+    width: 50%;
+    padding: 1px 20px 1px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+}
+div.cancelado{
+    width: 50%;
+    padding: 1px 20px 1px 20px;
+    background-color: #E82431;
+    color: white;
+    border-radius: 8px;
+}
+
+
+.detalhes{
+    color:#007bff;
+}
+.editar{
+    color: #FDDF4C;
+}
+.excluir{
+    color: #E82431;
+}
