@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+div.cima {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url("helloquence-61189.jpg");
+    background-size: cover;
+    border:1px solid black; 
+    margin-bottom: 5px;
+    position:relative;
+    opacity: 1;
+    margin-bottom:0px;
+}
+div.dinnerdash {
+    font-size: 20px;
+    width: 10%;
+    /* margin: 5vh 0px 0px 5%; */
+    margin-left: 5%;
+    
+    margin-top: 5vh;
+    color: white;
+}
+.seuperfil{
+    font-size:50px;
+}
+div.perfil {
+    margin-left: 5%;
+    margin-top: 40vh; 
+    color: white;
+    
+    
+}
+.botoes{
+    margin-left: 80%;
+    position: absolute;
+    /* bottom:75%; */
+    
+    top:30px;
+}
+button{
+    color: white;
+    background-color: transparent;
+    border:1px transparent;
+}
+.container{
+    height: 35vh;
+    width: 100%;
+}
+.box1{
+    width: 50%;
+}
+.box2{
+    width: 50%;
+}
+form{
+    /* padding-top: 10%; */
+    padding-left: 10%;
+}
+input{
+    width: 100%;
+}
+
+button.atualizar{
+    width: 60%;
+    height: 30px;
+    margin-top:20px;
+    background-color: #39cc6c;
+}
+.footer{
+    position: relative;
+    top:6px;
+    font-size:20px;
+}
+
+th{
+    text-align: center;
+}
+.table{
+    margin-right: 10%;
+    margin-left:10%;
+    margin-top: 30px;
+    width: 80%;
+}
+td, th{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+div.pendente{
+    width: 80%;
+    padding: 1px 20px 1px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius:8px;  
+}
+div.entregue{
+    width: 80%;
+    padding: 1px 20px 1px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+}
+div.cancelado{
+    width: 80%;
+    padding: 1px 20px 1px 20px;
+    background-color: #E82431;
+    color: white;
+    border-radius: 8px;
+}
+
+
+.detalhes{
+    color:#007bff;
+}
+.editar{
+    color: #FDDF4C;
+}
+.excluir{
+    color: #E82431;
+}
